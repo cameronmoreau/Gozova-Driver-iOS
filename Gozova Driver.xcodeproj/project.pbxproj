@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E0076381CBDDABD000D7057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0076371CBDDABD000D7057 /* AppDelegate.swift */; };
+		7E00763A1CBDDABD000D7057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0076391CBDDABD000D7057 /* ViewController.swift */; };
+		7E00763D1CBDDABD000D7057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E00763B1CBDDABD000D7057 /* Main.storyboard */; };
+		7E0076401CBDDABD000D7057 /* Gozova_Driver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E00763E1CBDDABD000D7057 /* Gozova_Driver.xcdatamodeld */; };
+		7E0076421CBDDABD000D7057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0076411CBDDABD000D7057 /* Assets.xcassets */; };
+		7E0076451CBDDABD000D7057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0076431CBDDABD000D7057 /* LaunchScreen.storyboard */; };
+		7E0076501CBDDABD000D7057 /* Gozova_DriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E00764F1CBDDABD000D7057 /* Gozova_DriverTests.swift */; };
+		7E00765B1CBDDABD000D7057 /* Gozova_DriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E00765A1CBDDABD000D7057 /* Gozova_DriverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E00764C1CBDDABD000D7057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E00762C1CBDDABD000D7057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E0076331CBDDABD000D7057;
+			remoteInfo = "Gozova Driver";
+		};
+		7E0076571CBDDABD000D7057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E00762C1CBDDABD000D7057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E0076331CBDDABD000D7057;
+			remoteInfo = "Gozova Driver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E0076341CBDDABD000D7057 /* Gozova Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gozova Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0076371CBDDABD000D7057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E0076391CBDDABD000D7057 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E00763C1CBDDABD000D7057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E00763F1CBDDABD000D7057 /* Gozova_Driver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gozova_Driver.xcdatamodel; sourceTree = "<group>"; };
+		7E0076411CBDDABD000D7057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E0076441CBDDABD000D7057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E0076461CBDDABD000D7057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E00764B1CBDDABD000D7057 /* Gozova DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gozova DriverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E00764F1CBDDABD000D7057 /* Gozova_DriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gozova_DriverTests.swift; sourceTree = "<group>"; };
+		7E0076511CBDDABD000D7057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0076561CBDDABD000D7057 /* Gozova DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gozova DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E00765A1CBDDABD000D7057 /* Gozova_DriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gozova_DriverUITests.swift; sourceTree = "<group>"; };
+		7E00765C1CBDDABD000D7057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E0076311CBDDABD000D7057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0076481CBDDABD000D7057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0076531CBDDABD000D7057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E00762B1CBDDABD000D7057 = {
+			isa = PBXGroup;
+			children = (
+				7E0076361CBDDABD000D7057 /* Gozova Driver */,
+				7E00764E1CBDDABD000D7057 /* Gozova DriverTests */,
+				7E0076591CBDDABD000D7057 /* Gozova DriverUITests */,
+				7E0076351CBDDABD000D7057 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E0076351CBDDABD000D7057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E0076341CBDDABD000D7057 /* Gozova Driver.app */,
+				7E00764B1CBDDABD000D7057 /* Gozova DriverTests.xctest */,
+				7E0076561CBDDABD000D7057 /* Gozova DriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E0076361CBDDABD000D7057 /* Gozova Driver */ = {
+			isa = PBXGroup;
+			children = (
+				7E0076371CBDDABD000D7057 /* AppDelegate.swift */,
+				7E0076391CBDDABD000D7057 /* ViewController.swift */,
+				7E00763B1CBDDABD000D7057 /* Main.storyboard */,
+				7E0076411CBDDABD000D7057 /* Assets.xcassets */,
+				7E0076431CBDDABD000D7057 /* LaunchScreen.storyboard */,
+				7E0076461CBDDABD000D7057 /* Info.plist */,
+				7E00763E1CBDDABD000D7057 /* Gozova_Driver.xcdatamodeld */,
+			);
+			path = "Gozova Driver";
+			sourceTree = "<group>";
+		};
+		7E00764E1CBDDABD000D7057 /* Gozova DriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E00764F1CBDDABD000D7057 /* Gozova_DriverTests.swift */,
+				7E0076511CBDDABD000D7057 /* Info.plist */,
+			);
+			path = "Gozova DriverTests";
+			sourceTree = "<group>";
+		};
+		7E0076591CBDDABD000D7057 /* Gozova DriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E00765A1CBDDABD000D7057 /* Gozova_DriverUITests.swift */,
+				7E00765C1CBDDABD000D7057 /* Info.plist */,
+			);
+			path = "Gozova DriverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E0076331CBDDABD000D7057 /* Gozova Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E00765F1CBDDABD000D7057 /* Build configuration list for PBXNativeTarget "Gozova Driver" */;
+			buildPhases = (
+				7E0076301CBDDABD000D7057 /* Sources */,
+				7E0076311CBDDABD000D7057 /* Frameworks */,
+				7E0076321CBDDABD000D7057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gozova Driver";
+			productName = "Gozova Driver";
+			productReference = 7E0076341CBDDABD000D7057 /* Gozova Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E00764A1CBDDABD000D7057 /* Gozova DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E0076621CBDDABD000D7057 /* Build configuration list for PBXNativeTarget "Gozova DriverTests" */;
+			buildPhases = (
+				7E0076471CBDDABD000D7057 /* Sources */,
+				7E0076481CBDDABD000D7057 /* Frameworks */,
+				7E0076491CBDDABD000D7057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E00764D1CBDDABD000D7057 /* PBXTargetDependency */,
+			);
+			name = "Gozova DriverTests";
+			productName = "Gozova DriverTests";
+			productReference = 7E00764B1CBDDABD000D7057 /* Gozova DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E0076551CBDDABD000D7057 /* Gozova DriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E0076651CBDDABD000D7057 /* Build configuration list for PBXNativeTarget "Gozova DriverUITests" */;
+			buildPhases = (
+				7E0076521CBDDABD000D7057 /* Sources */,
+				7E0076531CBDDABD000D7057 /* Frameworks */,
+				7E0076541CBDDABD000D7057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E0076581CBDDABD000D7057 /* PBXTargetDependency */,
+			);
+			name = "Gozova DriverUITests";
+			productName = "Gozova DriverUITests";
+			productReference = 7E0076561CBDDABD000D7057 /* Gozova DriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E00762C1CBDDABD000D7057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Gozova;
+				TargetAttributes = {
+					7E0076331CBDDABD000D7057 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7E00764A1CBDDABD000D7057 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7E0076331CBDDABD000D7057;
+					};
+					7E0076551CBDDABD000D7057 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7E0076331CBDDABD000D7057;
+					};
+				};
+			};
+			buildConfigurationList = 7E00762F1CBDDABD000D7057 /* Build configuration list for PBXProject "Gozova Driver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E00762B1CBDDABD000D7057;
+			productRefGroup = 7E0076351CBDDABD000D7057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E0076331CBDDABD000D7057 /* Gozova Driver */,
+				7E00764A1CBDDABD000D7057 /* Gozova DriverTests */,
+				7E0076551CBDDABD000D7057 /* Gozova DriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E0076321CBDDABD000D7057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0076451CBDDABD000D7057 /* LaunchScreen.storyboard in Resources */,
+				7E0076421CBDDABD000D7057 /* Assets.xcassets in Resources */,
+				7E00763D1CBDDABD000D7057 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0076491CBDDABD000D7057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0076541CBDDABD000D7057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E0076301CBDDABD000D7057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E00763A1CBDDABD000D7057 /* ViewController.swift in Sources */,
+				7E0076401CBDDABD000D7057 /* Gozova_Driver.xcdatamodeld in Sources */,
+				7E0076381CBDDABD000D7057 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0076471CBDDABD000D7057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0076501CBDDABD000D7057 /* Gozova_DriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0076521CBDDABD000D7057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E00765B1CBDDABD000D7057 /* Gozova_DriverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E00764D1CBDDABD000D7057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E0076331CBDDABD000D7057 /* Gozova Driver */;
+			targetProxy = 7E00764C1CBDDABD000D7057 /* PBXContainerItemProxy */;
+		};
+		7E0076581CBDDABD000D7057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E0076331CBDDABD000D7057 /* Gozova Driver */;
+			targetProxy = 7E0076571CBDDABD000D7057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E00763B1CBDDABD000D7057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E00763C1CBDDABD000D7057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E0076431CBDDABD000D7057 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E0076441CBDDABD000D7057 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E00765D1CBDDABD000D7057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E00765E1CBDDABD000D7057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E0076601CBDDABD000D7057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gozova Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.gozova.Gozova-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E0076611CBDDABD000D7057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gozova Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.gozova.Gozova-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E0076631CBDDABD000D7057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gozova DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.gozova.Gozova-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gozova Driver.app/Gozova Driver";
+			};
+			name = Debug;
+		};
+		7E0076641CBDDABD000D7057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gozova DriverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.gozova.Gozova-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gozova Driver.app/Gozova Driver";
+			};
+			name = Release;
+		};
+		7E0076661CBDDABD000D7057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gozova DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.gozova.Gozova-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gozova Driver";
+			};
+			name = Debug;
+		};
+		7E0076671CBDDABD000D7057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gozova DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.gozova.Gozova-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gozova Driver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E00762F1CBDDABD000D7057 /* Build configuration list for PBXProject "Gozova Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E00765D1CBDDABD000D7057 /* Debug */,
+				7E00765E1CBDDABD000D7057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E00765F1CBDDABD000D7057 /* Build configuration list for PBXNativeTarget "Gozova Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0076601CBDDABD000D7057 /* Debug */,
+				7E0076611CBDDABD000D7057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E0076621CBDDABD000D7057 /* Build configuration list for PBXNativeTarget "Gozova DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0076631CBDDABD000D7057 /* Debug */,
+				7E0076641CBDDABD000D7057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E0076651CBDDABD000D7057 /* Build configuration list for PBXNativeTarget "Gozova DriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0076661CBDDABD000D7057 /* Debug */,
+				7E0076671CBDDABD000D7057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7E00763E1CBDDABD000D7057 /* Gozova_Driver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E00763F1CBDDABD000D7057 /* Gozova_Driver.xcdatamodel */,
+			);
+			currentVersion = 7E00763F1CBDDABD000D7057 /* Gozova_Driver.xcdatamodel */;
+			path = Gozova_Driver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7E00762C1CBDDABD000D7057 /* Project object */;
+}
